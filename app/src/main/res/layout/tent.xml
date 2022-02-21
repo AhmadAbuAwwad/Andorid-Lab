@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_height="550dp"
+    android:layout_gravity="center"
+    android:background="#C3BDBD"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/close2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="end"
+        android:background="@drawable/cerclebackground"
+        android:gravity="center"
+        android:text="X"
+        android:textColor="#FFFFFF" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.19"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/image11"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.7"
+            android:scaleType="centerCrop" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.6"
+            android:orientation="horizontal"
+            android:paddingLeft="14dp"
+            android:shape="rectangle">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView101"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="City" />
+
+                    <EditText
+                        android:id="@+id/city11"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="textPersonName" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView121"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="Area" />
+
+                    <EditText
+                        android:id="@+id/area11"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="number"
+                        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView141"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="Bedrooms" />
+
+                    <EditText
+                        android:id="@+id/bedroom11"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="number" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView161"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="Status" />
+
+                    <EditText
+                        android:id="@+id/status11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="textPersonName" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView181"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="Garden" />
+
+                    <EditText
+                        android:id="@+id/garden11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="textPersonName" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView111"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="Address" />
+
+                    <EditText
+                        android:id="@+id/address11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="number" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView131"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="Year" />
+
+                    <EditText
+                        android:id="@+id/year11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="number" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView151"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="Price" />
+
+                    <EditText
+                        android:id="@+id/price11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="number" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView171"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="Balcony" />
+
+                    <EditText
+                        android:id="@+id/balcony11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="textPersonName" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView191"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="Owner" />
+
+                    <EditText
+                        android:id="@+id/date11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="textPersonName" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.97"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:text="Owner" />
+
+        <TextView
+            android:id="@+id/ownerName1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.925"
+        android:orientation="horizontal"
+        android:paddingLeft="14dp">
+
+        <LinearLayout
+            android:id="@+id/app11"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/accept11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="accept" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lkdasj"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/apply11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Reject" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

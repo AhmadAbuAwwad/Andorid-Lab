@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Renting">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/Email2"
+                android:layout_width="353dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:ems="10"
+                android:hint="Email Address"
+                android:inputType="textPersonName"
+                android:minHeight="48dp" />
+
+            <TextView
+                android:id="@+id/emailError1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:textColor="#C50D0D" />
+
+            <EditText
+                android:id="@+id/agencyName"
+                android:layout_width="353dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:ems="10"
+                android:hint="Agency Name"
+                android:inputType="textPersonName"
+                android:minHeight="48dp"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/nameError1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:textColor="#C50D0D" />
+
+            <EditText
+                android:id="@+id/Password12"
+                android:layout_width="353dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:ems="10"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:minHeight="48dp"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <TextView
+                android:id="@+id/passwordError1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:textColor="#C50D0D" />
+
+            <EditText
+                android:id="@+id/Password22"
+                android:layout_width="353dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:ems="10"
+                android:hint="Confirm Password"
+                android:inputType="textPassword"
+                android:minHeight="48dp" />
+
+            <TextView
+                android:id="@+id/confirmError1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:textColor="#C50D0D" />
+
+            <Spinner
+                android:id="@+id/countrySpinner2"
+                android:layout_width="353dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:hint="Country"
+                android:minHeight="48dp"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <Spinner
+                android:id="@+id/citySpinner2"
+                android:layout_width="353dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:hint="City"
+                android:minHeight="48dp"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <EditText
+                android:id="@+id/phoneNumber2"
+                android:layout_width="353dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:ems="10"
+                android:hint="Phone"
+                android:inputType="phone"
+                android:minHeight="48dp" />
+
+            <TextView
+                android:id="@+id/phoneError1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:textColor="#C50D0D" />
+
+            <Button
+                android:id="@+id/back1"
+                android:layout_width="353dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:backgroundTint="#23c2de"
+                android:background="@drawable/reg_btn_style"
+
+                android:text="Go Back" />
+
+            <Button
+                android:layout_marginTop="20dp"
+                android:id="@+id/Create2"
+                android:layout_width="353dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/reg_btn_style"
+
+                android:backgroundTint="#23c2de"
+
+                android:text="Create Account" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

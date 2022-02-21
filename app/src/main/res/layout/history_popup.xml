@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="550dp"
+    android:layout_gravity="center"
+    android:background="#C3BDBD"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/dat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginBottom="4dp"
+        android:layout_weight="1"
+        android:textColor="#6D7EDC"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/clos"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="end"
+        android:background="@drawable/cerclebackground"
+        android:gravity="center"
+        android:text="X"
+        android:textColor="#FFFFFF" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imag"
+            android:layout_width="match_parent"
+            android:layout_height="420dp"
+            android:layout_weight="0.7"
+            android:scaleType="centerCrop" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.4"
+            android:orientation="horizontal"
+            android:paddingLeft="14dp"
+            android:shape="rectangle">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textVie"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="City" />
+
+                    <TextView
+                        android:id="@+id/cit"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginBottom="4dp"
+                        android:layout_weight="1"
+                        android:textColor="#6D7EDC"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textVi"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Area" />
+
+                    <TextView
+                        android:id="@+id/are"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginBottom="4dp"
+                        android:layout_weight="1"
+                        android:textColor="#6D7EDC"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textV"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Bedrooms" />
+
+                    <TextView
+                        android:id="@+id/bedroo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginBottom="4dp"
+                        android:layout_weight="1"
+                        android:textColor="#6D7EDC"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Status" />
+
+                    <TextView
+                        android:id="@+id/statu"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginBottom="4dp"
+                        android:layout_weight="1"
+                        android:textColor="#6D7EDC"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tex"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Garden" />
+
+                    <TextView
+                        android:id="@+id/garde"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginBottom="4dp"
+                        android:layout_weight="1"
+                        android:textColor="#6D7EDC"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/te"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Start Date" />
+
+                    <TextView
+                        android:id="@+id/StartDate0"
+                        android:layout_width="match_parent"
+
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="#6D7EDC"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/t"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Owner" />
+
+                    <TextView
+                        android:id="@+id/ownerTx"
+                        android:layout_width="match_parent"
+
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="#6D7EDC"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView1166"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Address" />
+
+                    <TextView
+                        android:id="@+id/addres"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginBottom="4dp"
+                        android:layout_weight="1"
+                        android:textColor="#6D7EDC"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView1366"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Tenant" />
+
+                    <TextView
+                        android:id="@+id/yea"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginBottom="4dp"
+                        android:layout_weight="1"
+                        android:textColor="#6D7EDC"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView1577"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Price" />
+
+                    <TextView
+                        android:id="@+id/pric"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginBottom="4dp"
+                        android:layout_weight="1"
+                        android:textColor="#6D7EDC"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView1766"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Balcony" />
+
+                    <TextView
+                        android:id="@+id/balcon"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginBottom="4dp"
+                        android:layout_weight="1"
+                        android:textColor="#6D7EDC"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView2066"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="end Date" />
+
+                    <TextView
+                        android:id="@+id/endDate0"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="4dp"
+                        android:layout_marginBottom="4dp"
+                        android:layout_weight="1"
+                        android:textColor="#6D7EDC"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/A"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="5"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/ap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.65"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/accep"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="View Tenant" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

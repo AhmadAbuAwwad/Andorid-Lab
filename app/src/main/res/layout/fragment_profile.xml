@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".ui.profile.ProfileFragment">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="40dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView41"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:text="UserName:" />
+
+                <TextView
+                    android:id="@+id/profileID"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp"
+                    tools:ignore="SpeakableTextPresentCheck" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView42"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:text="Name:" />
+
+                <EditText
+                    android:id="@+id/profileAgencyNameEdit"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:minHeight="48dp"
+                    tools:ignore="SpeakableTextPresentCheck" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView43"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:text="Password:" />
+
+                <EditText
+                    android:id="@+id/profilePasswordEdit"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPassword"
+                    android:minHeight="48dp"
+                    tools:ignore="SpeakableTextPresentCheck" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView44"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:text="Confirm Password:" />
+
+                <EditText
+                    android:id="@+id/profilePasswordConfirm"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPassword"
+                    android:minHeight="48dp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/confirmPasswordRental"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:textColor="#C50D0D" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView47"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:text="Country:" />
+
+                <EditText
+                    android:id="@+id/profileCountrySpinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:minHeight="48dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView45"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:text="City:" />
+
+                <EditText
+                    android:id="@+id/profileCitySpinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:minHeight="48dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView46"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:text="Phone:" />
+
+                <EditText
+                    android:id="@+id/profilePhoneEdit"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="phone"
+                    android:minHeight="48dp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/phoneError1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:textColor="#C50D0D" />
+
+
+
+            <Button
+                android:layout_marginTop="20dp"
+                android:id="@+id/DoneEditing"
+                android:layout_width="353dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/reg_btn_style"
+                android:backgroundTint="#23c2de"
+                android:text="Done Editing" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

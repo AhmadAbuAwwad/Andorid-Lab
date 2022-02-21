@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".ui.profile.ProfileFragment">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:padding="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="30dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView20"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="20dp"
+                        android:layout_weight="1"
+                        android:text="UserName:" />
+
+                    <TextView
+                        android:id="@+id/profileEmailTenant"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:minHeight="48dp" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="370dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView21"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="20dp"
+                        android:text="Name:" />
+
+                    <EditText
+                        android:id="@+id/firstNameTenant"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:minHeight="48dp"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                    <EditText
+                        android:id="@+id/lastNameTenant"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:minHeight="48dp"
+                        tools:ignore="SpeakableTextPresentCheck" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView30"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="20dp"
+                        android:layout_weight="1"
+                        android:text="Gender:" />
+
+                    <EditText
+                        android:id="@+id/genderTenant"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:inputType="textPersonName"
+                        android:minHeight="48dp"
+                        tools:ignore="SpeakableTextPresentCheck" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView31"
+                        android:layout_width="match_parent"
+                        android:layout_marginLeft="20dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="Password:" />
+
+                    <EditText
+                        android:id="@+id/profilePasswordTenant"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="20dp"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="textPassword"
+                        android:minHeight="48dp"
+                        tools:ignore="SpeakableTextPresentCheck" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView32"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+
+                        android:layout_marginLeft="20dp"
+                        android:layout_weight="1"
+                        android:text="Confirm Password:" />
+
+                    <EditText
+                        android:id="@+id/profilePasswordConfirmTenant"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="20dp"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="textPassword"
+                        android:minHeight="48dp"
+                        tools:ignore="SpeakableTextPresentCheck" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/confirmErrorTenant"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="#C50D0D"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView33"
+                        android:layout_width="match_parent"
+                        android:layout_marginLeft="20dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="Nation:" />
+
+                    <EditText
+                        android:id="@+id/nationTenant"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="20dp"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:minHeight="48dp"
+                        tools:ignore="SpeakableTextPresentCheck" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView35"
+                        android:layout_width="match_parent"
+                        android:layout_marginLeft="20dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="Occupation" />
+
+                    <EditText
+                        android:id="@+id/occupationTenant"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="20dp"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="textPersonName"
+                        android:minHeight="48dp"
+                        tools:ignore="SpeakableTextPresentCheck" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView40"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="20dp"
+                        android:layout_weight="1"
+                        android:text="Family size:" />
+
+                    <EditText
+                        android:id="@+id/familySizeTenant"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="20dp"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="number"
+                        android:minHeight="48dp"
+                        tools:ignore="SpeakableTextPresentCheck" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView36"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="20dp"
+                        android:layout_weight="1"
+                        android:text="Country:" />
+
+                    <EditText
+                        android:id="@+id/countryTenant"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="20dp"
+                        android:layout_weight="1"
+                        android:inputType="textPersonName"
+                        android:minHeight="48dp"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView39"
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="City:" />
+
+                    <EditText
+                        android:id="@+id/cityTenant"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="20dp"
+                        android:layout_weight="1"
+                        android:inputType="textPersonName"
+                        android:minHeight="48dp"
+                        tools:ignore="SpeakableTextPresentCheck" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView38"
+                        android:layout_width="match_parent"
+                        android:layout_marginLeft="20dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="Phone:" />
+
+                    <EditText
+                        android:id="@+id/phoneNumberTenant"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="20dp"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="phone"
+                        android:minHeight="48dp"
+                        tools:ignore="SpeakableTextPresentCheck" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/phoneErrorTenant"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="#C50D0D"/>
+
+
+                <Button
+                    android:id="@+id/profileBtn"
+                    android:layout_width="353dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:backgroundTint="#23c2de"
+                    android:background="@drawable/reg_btn_style"
+                    android:layout_marginTop="2dp"
+                    android:text="Done Editing" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

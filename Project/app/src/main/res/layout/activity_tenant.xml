@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tenant">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#DFDFDF"
+                android:backgroundTint="#453A7C"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/Email1"
+                    android:layout_width="353dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:ems="10"
+                    android:hint="Email Address"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp" />
+
+                <TextView
+                    android:id="@+id/emailError"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="#C50D0D"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/firstName"
+                        android:layout_width="152dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:ems="10"
+                        android:hint=" First name"
+                        android:inputType="textPersonName"
+                        android:minHeight="48dp" />
+
+                    <EditText
+                        android:id="@+id/lastName"
+                        android:layout_width="182dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:ems="10"
+                        android:hint=" Last name"
+                        android:inputType="textPersonName"
+                        android:minHeight="48dp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/nameError"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="#C50D0D"/>
+
+                <Spinner
+                    android:id="@+id/genderSpinner"
+                    android:layout_width="240dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ageEditText"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="#FFFDFD"
+                    android:layout_toRightOf="@+id/textView2"
+                    android:background="#DFDFDF"
+                    android:backgroundTint="#453A7C"
+                    android:foregroundTint="#453A7C"
+                    android:hint="Gender"
+                    android:minHeight="48dp"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <EditText
+                    android:id="@+id/Password1"
+                    android:layout_width="353dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:ems="10"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:minHeight="48dp"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <TextView
+                    android:id="@+id/passwordError"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="#C50D0D"/>
+
+                <EditText
+                    android:id="@+id/Password2"
+                    android:layout_width="353dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:ems="10"
+                    android:hint="Confirm Password"
+                    android:inputType="textPassword"
+                    android:minHeight="48dp" />
+
+                <TextView
+                    android:id="@+id/confirmError"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="#C50D0D"/>
+
+                <Spinner
+                    android:id="@+id/nationSpinner"
+                    android:layout_width="353dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:hint="Nationality"
+                    android:minHeight="48dp"
+                    tools:ignore="SpeakableTextPresentCheck"
+                    />
+
+                <EditText
+                    android:id="@+id/grossMonthlySalary"
+                    android:layout_width="353dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:ems="10"
+                    android:hint="Month Salary"
+                    android:inputType="number"
+                    android:minHeight="48dp" />
+
+                <TextView
+                    android:id="@+id/salaryError"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="#C50D0D"/>
+
+                <EditText
+                    android:id="@+id/occupation"
+                    android:layout_width="353dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:ems="10"
+                    android:hint="Occupation"
+                    android:inputType="textPersonName"
+                    android:minHeight="48dp"
+                    />
+
+                <TextView
+                    android:id="@+id/occError"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="#C50D0D"/>
+
+                <EditText
+                    android:id="@+id/familySize"
+                    android:layout_width="353dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:ems="10"
+                    android:hint="Family Size"
+                    android:inputType="number"
+                    android:minHeight="48dp" />
+
+                <TextView
+                    android:id="@+id/sizeError"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="#C50D0D"/>
+
+                <Spinner
+                    android:id="@+id/countrySpinner"
+                    android:layout_width="353dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:hint="Country"
+                    android:minHeight="48dp"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+                <Spinner
+                    android:id="@+id/citySpinner"
+                    android:layout_width="353dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:hint="City"
+                    android:minHeight="48dp"
+                    tools:ignore="SpeakableTextPresentCheck"
+                    />
+
+                <EditText
+                    android:id="@+id/phoneNumber"
+                    android:layout_width="353dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:ems="10"
+                    android:hint="Phone"
+                    android:inputType="phone"
+                    android:minHeight="48dp" />
+
+                <TextView
+                    android:id="@+id/phoneError"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:textColor="#C50D0D"/>
+                <Button
+                    android:id="@+id/back2"
+                    android:layout_width="353dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:backgroundTint="#549E40"
+                    android:text="Go Back" />
+
+                <Button
+                    android:id="@+id/Create"
+                    android:layout_width="353dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:backgroundTint="#549E40"
+                    android:text="Create Account" />
+                <![CDATA[
+
+                />
+
+            ]]>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
